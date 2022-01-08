@@ -1,0 +1,127 @@
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    background-color:blanchedalmond;
+    padding:0;
+    margin:0;
+    outline-style: hidden;
+    background-image: -webkit-linear-gradient();
+}
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size:50px;
+    text-decoration:underline;
+}
+.calculator{
+    background-color:blanchedalmond;
+    padding:15px;
+    border-radius:20px;
+    box-shadow:insert 5px 5px 12px #fff,
+                      5px 5px 12px rgba(0,0,0.17);
+    display:grid;
+    grid-template-columns: repeat(4,68px);
+    
+}
+.button:hover{
+    background-color: crimson;
+
+}
+input{
+    grid-column: span 4;
+    height:60px;
+    width:260px;
+    background-color:blanchedalmond;
+    box-shadow:inset -5px -5px 12px #fff,
+               inset 5px 5px 12px rgba(0,0,0.17);
+    border:none;
+    border-radius:30px;
+    color:black;
+    font-size:30px;
+    text-align:center;
+    margin:auto;
+    margin-top:40px;
+    margin-bottom:30px;
+
+}
+
+button{
+    height:48px;
+    width:48px;
+    background-color:blanchedalmond;
+    box-shadow:-5px -5px 12px #fff,
+                5px 5px 12px rgba(0,0,0.17);
+     border:none;
+     border-radius: 50px;
+     margin:8px;
+     font-size:15px;
+
+}
+.equals{
+    width:115px;
+    border-radius:40px;
+    background-color:blanchedalmond;
+    box-shadow:-5px -5px 12px #fff,
+                5px 5px 12px rgba(0,0,0.17);
+
+}
+h1:hover{
+    text-transform: uppercase;
+    text-decoration-color: blue;
+}
+
+footer{
+    margin:80px;
+    text-align-last: left;
+    text-decoration-style: dashed;
+    text-decoration-color: crimson;
+}
